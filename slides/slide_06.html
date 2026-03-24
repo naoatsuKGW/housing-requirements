@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1280, height=720">
+    <title>Bathroom & Toilet / Detox Room - あいだに住む</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Shippori+Mincho:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --paper: #fdfbf7;
+            --ink: #2c2c2c;
+            --muted: #888888;
+            --line: #d1d1d1;
+            --accent: #e6e2da;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background: var(--paper);
+            color: var(--ink);
+            width: 1280px;
+            height: 720px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slide-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hero-section {
+            height: 60%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section-dual {
+            height: 60%;
+            position: relative;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .hero-section-cover {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 48px;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .side-image {
+            width: 50%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .title-overlay {
+            position: absolute;
+            top: 32px;
+            left: 48px;
+            z-index: 10;
+        }
+
+        .slide-title {
+            font-family: 'Shippori Mincho', serif;
+            font-size: 34px;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 8px;
+            text-shadow: 0 0 20px rgba(253, 251, 247, 0.9);
+        }
+
+        .subtitle {
+            font-family: 'Inter', monospace;
+            font-size: 11px;
+            color: var(--muted);
+            letter-spacing: 0.5px;
+            text-shadow: 0 0 15px rgba(253, 251, 247, 0.9);
+        }
+
+        .requirements-section {
+            height: 40%;
+            padding: 32px 48px;
+            background: var(--paper);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content-note {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 12px;
+            color: var(--ink);
+            line-height: 1.8;
+            background: rgba(230, 226, 218, 0.3);
+            padding: 16px;
+            border-radius: 4px;
+            border-left: 3px solid var(--accent);
+        }
+
+        .meta-rail {
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 48px;
+            background: rgba(230, 226, 218, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 24px 0;
+            border-left: 1px solid var(--line);
+        }
+
+        .page-number {
+            font-family: 'Inter', monospace;
+            font-size: 10px;
+            color: var(--muted);
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+
+        .project-id {
+            font-family: 'Inter', monospace;
+            font-size: 9px;
+            color: var(--muted);
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+
+        <div class="hero-section-cover">
+            <h1 class="slide-title">Bathroom & Toilet / Detox Room</h1>
+            <p class="subtitle">バスルーム・トイレ・デトックスルーム</p>
+        </div>
+
+        <div class="requirements-section">
+            <div class="content-note">バスルーム・トイレ・デトックスルームの要件。P07から画像を入れ替え。リラクゼーションと健康管理のための空間設計。</div>
+        </div>
+
+        <!-- Meta Rail -->
+        <div class="meta-rail">
+            <div class="page-number">P06 / 13</div>
+            <div class="project-id">AIDA-2026</div>
+        </div>
+    </div>
+</body>
+</html>
