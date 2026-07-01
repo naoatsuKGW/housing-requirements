@@ -4,7 +4,7 @@
 
 ---
 
-## 現在地：v0.1（骨格）
+## v0.1（骨格・完了）
 
 - [x] ディレクトリ構造の確立
 - [x] `CLAUDE.md`（最優先ルール）
@@ -21,12 +21,23 @@ v0.1 の狙い：**「混ぜない設計」を先に固める。** 中身（占�
 
 ---
 
-## v0.2：ルールとドキュメントの完成
+## v0.2：ルールとドキュメントの完成 ＋ 整合性の確定
 
-- [ ] `system/quality_rules.md` を実運用レベルに（出力の自己採点基準）
-- [ ] `system/safety_rules.md` を具体化（医療・法律・財務・破滅予言の線引き）
-- [ ] `docs/philosophy.md` / `methodology.md` / `glossary.md` を本文化
-- [ ] `templates/` 残り3種（annual / compatibility / decision_support）を実用化
+v0.1 で下記は実装済み：
+- [x] `system/quality_rules.md` を実運用レベルに（自己採点表・信頼度基準）
+- [x] `system/safety_rules.md` を具体化（医療・法律・財務・破滅予言・危機対応）
+- [x] `docs/philosophy.md` / `methodology.md` / `glossary.md` を本文化
+- [x] `templates/` 全4種を実用化（full / annual / compatibility / decision_support）
+
+v0.2 の本体（`REVIEW_v0.2.md` 対応・整合性の確定）：
+- [x] 権威の単一ソース化：`CLAUDE.md` を唯一の最上位に確定（§0 優先順位正典）
+- [x] `system_prompt.md`＝実行プロンプト／`safety_rules.md`＝安全補助規則に位置付け（最上位を名乗らせない）
+- [x] 7レイヤーの適用範囲を明記（分析・占断出力に必須／仕様・理論文書は対象外）
+- [x] 未計算／未検証／推測／計算済 の定義を `docs/glossary.md` に統一
+- [x] 位置＝`[計算済]`／意味＝`[占術解釈]` の切り分け規約
+- [x] 辛口トーンの橋渡し（「占術的には強く出るが現実判断では未確定」）
+- [x] 実計算の設定規約 `knowledge/calculation_config.md`（JST・黄道・ハウス・節入り・真太陽時・出典書式）
+- [ ] Minor 指摘（m1〜m7）の解消（次回パッチ）
 - [ ] タグ運用のミス例・良い例を追記
 
 ---

@@ -1,6 +1,6 @@
 # Fortune-OS
 
-**個人用・統合分析OS（v0.1）**
+**個人用・統合分析OS（v0.2）**
 占術・心理分析・人生戦略を、ひとつの意思決定支援システムとして統合するための Markdown ベースのプロジェクト。
 
 ---
@@ -44,14 +44,15 @@ Fortune-OS は「当たる占い」を作るためのものではない。
 
 ## 使い方
 
-1. `system/system_prompt.md` を LLM のシステムプロンプトとして読み込ませる
-2. `user/` 配下（本人・配偶者・優先度）を文脈として与える
-3. 目的に応じて `templates/` から出力テンプレートを選ぶ
+1. **`CLAUDE.md`（唯一の最上位運用ルール）を最初に読み込ませる。**
+2. `system/` を読み込ませる（`safety_rules.md` → `system_prompt.md` → `output_rules.md` / `quality_rules.md`）
+3. `user/` 配下（本人・配偶者・優先度）を文脈として与える
+4. 目的に応じて `templates/` から出力テンプレートを選ぶ
    - 全体像 → `templates/full_reading.md`
    - 年次レビュー → `templates/annual_reading.md`
    - 相性 → `templates/compatibility_reading.md`
    - 個別の意思決定 → `templates/decision_support.md`
-4. 出力は必ず7レイヤーで分離されているか確認する
+5. 出力は必ず7レイヤーで分離されているか確認する（優先順位の正典は `CLAUDE.md` §0）
 
 ---
 
@@ -70,6 +71,7 @@ Fortune-OS/
 ├── psychology/           ← 心理分析の適用
 ├── strategy/             ← 現実の戦略立案
 ├── knowledge/            ← 人物に依存しない汎用の参照知識ベース
+│                            （実計算の設定規約は `knowledge/calculation_config.md` が正典）
 └── templates/            ← 出力フォーマット
 ```
 
@@ -89,7 +91,8 @@ Fortune-OS/
 
 ## バージョン
 
-- **v0.1** — 初期骨格。コア6ファイル（README / system_prompt / output_rules / subject / wife / full_reading）を実用レベルで整備。占術データは未計算のプレースホルダを含む。
+- **v0.1** — 初期骨格。コア6ファイルを実用レベルで整備。占術データは未計算のプレースホルダ。
+- **v0.2** — 整合性の確定。権威の単一ソース化（`CLAUDE.md` §0）、7レイヤーの適用範囲、未計算／未検証／推測／計算済の定義統一、トーンの橋渡し、実計算の設定規約（`knowledge/calculation_config.md`）を整備。レビューは `REVIEW_v0.2.md`、修正記録は `REVIEW_v0.2_FIX_LOG.md`。
 
 詳細は `CHANGELOG.md` を参照。
 
