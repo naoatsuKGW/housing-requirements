@@ -79,6 +79,13 @@ v0.2 の本体（`logs/REVIEW_v0.2.md` 対応・整合性の確定）：
 
 ---
 
+## RC2候補（未着手・要Issue/Research裏付け）
+
+- **Fortune Daily / Weekly / Life**：今日・今週・人生全体の意思決定支援モード。RC1運用中に需要と実例を
+  Issue/Researchで確認したうえで、RC2候補として検討する。
+
+---
+
 ## 設計上の非目標（やらないこと）
 
 - 未来の断定的予言
