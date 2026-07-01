@@ -6,6 +6,30 @@ Fortune-OS **v1.0 RC1（Release Candidate）以降の開発方針**を実行す�
 
 ---
 
+Fortune OS は未来を当てるシステムではない。
+
+また、人を分類・決めつけるシステムでもない。
+
+Fortune OS は
+
+Evidence
+↓
+Reasoning
+↓
+Decision
+
+の順番で、象徴体系（占術）と現実世界を接続し、意思決定を支援する研究プロジェクトである。
+
+Research はまだ答えが分からない問いを扱う。
+
+Issue は実際のGold Readingから確認された問題を扱う。
+
+Research は Issue を生むことがある。
+
+Issue は Engine を改善することがある。
+
+---
+
 ## 0. この方針の前提（v1.0 RC1）
 
 Fortune-OS の目的は **Evidence-driven Symbolic Decision Support**（占術システムではなく、
