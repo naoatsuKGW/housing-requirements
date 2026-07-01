@@ -92,7 +92,7 @@ Fortune-OS/
 ## バージョン
 
 - **v0.1** — 初期骨格。コア6ファイルを実用レベルで整備。占術データは未計算のプレースホルダ。
-- **v0.2** — 整合性の確定。権威の単一ソース化（`CLAUDE.md` §0）、7レイヤーの適用範囲、未計算／未検証／推測／計算済の定義統一、トーンの橋渡し、実計算の設定規約（`knowledge/calculation_config.md`）を整備。レビューは `REVIEW_v0.2.md`、修正記録は `REVIEW_v0.2_FIX_LOG.md`。
+- **v0.2** — 整合性の確定。権威の単一ソース化（`CLAUDE.md` §0）、7レイヤーの適用範囲、未計算／未検証／推測／計算済の定義統一、トーンの橋渡し、実計算の設定規約（`knowledge/calculation_config.md`）を整備。レビューは `logs/REVIEW_v0.2.md`、修正記録は `logs/REVIEW_v0.2_FIX_LOG.md`。
 
 詳細は `CHANGELOG.md` を参照。
 

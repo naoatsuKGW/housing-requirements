@@ -29,7 +29,7 @@ v0.1 で下記は実装済み：
 - [x] `docs/philosophy.md` / `methodology.md` / `glossary.md` を本文化
 - [x] `templates/` 全4種を実用化（full / annual / compatibility / decision_support）
 
-v0.2 の本体（`REVIEW_v0.2.md` 対応・整合性の確定）：
+v0.2 の本体（`logs/REVIEW_v0.2.md` 対応・整合性の確定）：
 - [x] 権威の単一ソース化：`CLAUDE.md` を唯一の最上位に確定（§0 優先順位正典）
 - [x] `system_prompt.md`＝実行プロンプト／`safety_rules.md`＝安全補助規則に位置付け（最上位を名乗らせない）
 - [x] 7レイヤーの適用範囲を明記（分析・占断出力に必須／仕様・理論文書は対象外）
