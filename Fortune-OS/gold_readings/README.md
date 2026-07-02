@@ -59,7 +59,7 @@ GOLD_<3桁連番>_<対象者名>.md
 ## 5. 収録
 
 - `GOLD_STANDARD_TEMPLATE.md` — 13セクション構成の型（人物非依存）
-- `GOLD_001_NAOATSU.md` — SUBJECT_NAMEを対象とした最初の実例。`ENGINE_DESIGN_v1.0.md` 完全準拠
+- `GOLD_001_NAOATSU.md` — 本人を対象とした最初の実例（緊急対応により本文は一時削除中。`fortune-os-private`へ移行予定）。`ENGINE_DESIGN_v1.0.md` 完全準拠
 
 ---
 
