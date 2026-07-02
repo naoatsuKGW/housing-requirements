@@ -54,7 +54,13 @@ Fortune-OS の**安全補助規則**（v0.2）。
 
 ---
 
-## 7. 優先順位
+## 7. Neuro Evidence（qEEG／EEG資料）の扱い
+
+Neuro Evidenceを扱う場合は、`evidence/neuro/neuro_evidence_policy.md` に従い、診断名・医学的結論・能力断定には使用しない。
+
+---
+
+## 8. 優先順位
 
 正典は `CLAUDE.md` §0。要約：
 `CLAUDE.md`（最上位）＞ 本ファイル（安全補助規則・**安全事項では絶対**）＞ その他すべて。
