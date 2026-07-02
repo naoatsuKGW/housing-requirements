@@ -38,7 +38,7 @@ Fortune-OS **Gold Standard Reading 集**（v1.0）。
 ## 3. 重要な設計上の注意（GOLD_001 を読む前に）
 
 Fortune-OS は現時点で、占術データを**意図的にすべて未計算**にしている（`ROADMAP.md` v0.1〜v0.2.5の方針）。
-そのため、`GOLD_001_NAOATSU.md` の「宿命分析」等のセクションは、**豊富な確定的記述にはならない**。
+そのため、`GOLD_001_SUBJECT.md` の「宿命分析」等のセクションは、**豊富な確定的記述にはならない**。
 
 これは欠陥ではない。**Gold Standard の品質は「占術がどれだけ雄弁か」ではなく、
 「計算していないことをどれだけ誠実に扱い、それでもどれだけ深い分析ができるか」で測る。**
@@ -51,7 +51,7 @@ Gold Standard としては**失格**になる。
 
 ```
 GOLD_<3桁連番>_<対象者名>.md
-例：GOLD_001_NAOATSU.md（本人）、将来 GOLD_002_SPOUSE.md（配偶者）、GOLD_003_COMPATIBILITY.md（相性）等
+例：GOLD_001_SUBJECT.md（本人）、GOLD_002_SPOUSE.md（配偶者）、GOLD_003_COMPATIBILITY.md（相性）等
 ```
 
 ---
@@ -59,7 +59,7 @@ GOLD_<3桁連番>_<対象者名>.md
 ## 5. 収録
 
 - `GOLD_STANDARD_TEMPLATE.md` — 13セクション構成の型（人物非依存）
-- `GOLD_001_NAOATSU.md` — 本人を対象とした最初の実例（緊急対応により本文は一時削除中。`fortune-os-private`へ移行予定）。`ENGINE_DESIGN_v1.0.md` 完全準拠
+- `GOLD_001_SUBJECT.md` — 本人を対象とした最初の実例（緊急対応により本文は一時削除中。`fortune-os-private`へ移行予定）。`ENGINE_DESIGN_v1.0.md` 完全準拠
 
 ---
 
